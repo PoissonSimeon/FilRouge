@@ -60,12 +60,14 @@ i{
     display: none; 
 }
 
-.bandeau2{
-position: fixed;
-right: 10px;
-top: 30px;
-text-align:right;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
+
 
 .bouttons{
     font-family: Montserrat;
