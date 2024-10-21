@@ -24,6 +24,7 @@ h3{
 
 .latin{
     margin-left: 10%;
+    margin-right: 30%;
 }
 
 .un{
@@ -35,12 +36,14 @@ h4{
     text-align: center;
     font-family: Montserrat;
     color: rgb(80, 80, 80);
+    font-size: 15;
 }
 
 h5{
     text-align: center;
     font-family: Montserrat;
     color: rgb(80, 80, 80);
+    font-size: 12px;
 }
 
 i{
@@ -66,16 +69,14 @@ header{
     align-items: center;
 }
 
-
-
-
 .bouttons{
     font-family: Montserrat;
     color: rgb(255, 255, 255);
     text-align: center;
     word-spacing: 30px;
+    padding: 40px;
+    font-size: 12px;
 }
-
 
 a{
     color: rgb(255, 255, 255);
@@ -84,19 +85,25 @@ a{
 }
 
 .boutton{
-
+    padding: 5px;
 }
 
 .boutton:hover{
     background-color: aquamarine;
     color: rgb(80, 80, 80);
+    padding: 5px;
 }
 
 .boutton2{
     background-color: aquamarine;
     color: rgb(80, 80, 80);
+    padding: 5px;
 }
 
 .boutton2:hover{
 
+}
+
+.images{
+    margin-left: 10%;
 }
