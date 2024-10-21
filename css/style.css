@@ -17,13 +17,13 @@ h2{
 
 h3{
     font-family: Montserrat;
-    color: rgb(124, 124, 124);
+    color: rgb(80, 80, 80);
     font-size: 100%;
     text-align: left;
 }
 
 .latin{
-    text-align: center;
+    margin-left: 10%;
 }
 
 .un{
@@ -34,13 +34,13 @@ h3{
 h4{
     text-align: center;
     font-family: Montserrat;
-    color: rgb(122, 122, 122);
+    color: rgb(80, 80, 80);
 }
 
 h5{
     text-align: center;
     font-family: Montserrat;
-    color: rgb(122, 122, 122);
+    color: rgb(80, 80, 80);
 }
 
 i{
@@ -54,4 +54,47 @@ i{
 
 .page{
     margin-left: 10%;
+}
+
+.grid img:nth-child(n + 10) {  
+    display: none; 
+}
+
+.bandeau2{
+position: fixed;
+right: 10px;
+top: 30px;
+text-align:right;
+}
+
+.bouttons{
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 30px;
+}
+
+
+a{
+    color: rgb(255, 255, 255);
+    outline: medium none;
+    text-decoration: none;
+}
+
+.boutton{
+
+}
+
+.boutton:hover{
+    background-color: aquamarine;
+    color: rgb(80, 80, 80);
+}
+
+.boutton2{
+    background-color: aquamarine;
+    color: rgb(80, 80, 80);
+}
+
+.boutton2:hover{
+
 }
