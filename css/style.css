@@ -5,6 +5,8 @@ body{
 h1{
     font-family:  Yeseva One;
     color: rgb(255, 255, 255);
+    font-size: 300%;
+    line-height: 10%;
 }
 
 h2{
@@ -16,6 +18,12 @@ h2{
 h3{
     font-family: Montserrat;
     color: rgb(124, 124, 124);
+    font-size: 100%;
+    text-align: left;
+}
+
+.latin{
+    text-align: center;
 }
 
 .un{
@@ -42,4 +50,8 @@ i{
 .point{
     font-family: Yeseva On;
     color: rgb(23, 217, 158);
+}
+
+.page{
+    margin-left: 10%;
 }
