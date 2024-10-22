@@ -8,6 +8,10 @@ Outils Utilisés:
 - Font Awesome
 - Lorem Picsum
 
+Languages Utilisés:
+- HTML
+- CSS
+
 Page du Projet:
 https://github.com/PoissonSimeon/FilRouge
 
