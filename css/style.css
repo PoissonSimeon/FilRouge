@@ -3,17 +3,18 @@ body{
     background: rgb(4, 24, 33);
 }
 
-h1{
+.titre{
     font-family:  Yeseva One;
     color: rgb(255, 255, 255);
     font-size: 300%;
-    line-height: 10%;
+    line-height: 110%;
 }
 
 h2{
     font-family: Yeseva On;
     color: rgb(255, 255, 255);
     display: inline-block;
+    font-weight: bold;
 }
 
 h3{
@@ -31,13 +32,14 @@ h3{
 .un{
     font-family: Yeseva On;
     color: rgb(23, 217, 158);
+    font-weight: bold;
 }
 
 h4{
     text-align: center;
     font-family: Montserrat;
     color: rgb(80, 80, 80);
-    font-size: 15;
+    font-size: 15px;
 }
 
 h5{
@@ -58,6 +60,7 @@ i{
 
 .page{
     margin-left: 10%;
+    margin-right: 10%;
 }
 
 header{
@@ -73,6 +76,8 @@ header{
     word-spacing: 30px;
     padding: 40px;
     font-size: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 a{
@@ -97,10 +102,36 @@ a{
     padding: 5px;
 }
 
-.boutton2:hover{
-
-}
-
 .images{
     margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+.hr{
+    border-bottom: 1px solid grey;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1200px){
+    .images{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .images{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .images img:nth-child(n+10){
+        display:none;
+    }
 }
