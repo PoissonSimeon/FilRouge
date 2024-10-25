@@ -13,6 +13,6 @@ Languages utilisés:
 - CSS
 
 Page du Projet:
-https://github.com/PoissonSimeon/FilRouge
+https://poissonsimeon.github.io/FilRouge/
 
 Info de dernière minute: Vscode refusait de sauvegarder mon travail sur ma page GitHub, j'ai donc dû effectuer le commit manuellement sur le site
